@@ -10,10 +10,12 @@ use MyCLabs\Enum\Enum;
  * @method static HOUSE()
  * @method static FLAT()
  * @method static TOWNHOUSE()
+ * @method static HOUSE_WITH_LOT()
  */
 class Category extends Enum
 {
     private const HOUSE = 'дом';
     private const FLAT = 'квартира';
     private const TOWNHOUSE = 'таунхаус';
+    private const HOUSE_WITH_LOT = 'дом с участком';
 }

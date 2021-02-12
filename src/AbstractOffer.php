@@ -5,7 +5,7 @@ namespace Windstep\YRLGenerator;
 use Windstep\YRLGenerator\Traits\FiltersArray;
 use XMLWriter;
 
-class AbstractOffer
+abstract class AbstractOffer
 {
     use FiltersArray;
 
@@ -13,6 +13,7 @@ class AbstractOffer
     protected $engine;
     protected $properties = [];
     protected $id;
+    protected $importId;
     protected $sameNameProperties = [
         'metro',
         'room-space'
@@ -24,11 +25,7 @@ class AbstractOffer
         $this->fill($data);
     }
 
-    protected function prepareSelf()
-    {
-        // Anyone could override this function to
-        // prepare offer itself
-    }
+    abstract protected function prepareSelf();
 
     public function toXMLString(): string
     {
@@ -37,6 +34,10 @@ class AbstractOffer
         $this->engine->openMemory();
         $this->engine->startElement('offer');
         $this->engine->writeAttribute('internal-id', $this->id);
+
+        if ($this->importId) {
+            $this->engine->writeAttribute('import-id', $this->importId);
+        }
 
         foreach ($this->properties as $propertyName => $value) {
             $this->createElement($propertyName, $value);

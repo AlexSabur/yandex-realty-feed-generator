@@ -21,6 +21,7 @@ use Windstep\YRLGenerator\Enums\WindowType;
 class Offer extends AbstractOffer
 {
     protected $id;
+    protected $importId;
     protected $type;
     protected $propertyType;
     protected $category;
@@ -83,6 +84,13 @@ class Offer extends AbstractOffer
     public function setBuildingName(?string $buildingName): Offer
     {
         $this->buildingName = $buildingName;
+
+        return $this;
+    }
+
+    public function setImportId(?string $importId): Offer
+    {
+        $this->importId = $importId;
 
         return $this;
     }
