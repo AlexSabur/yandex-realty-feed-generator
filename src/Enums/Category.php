@@ -10,6 +10,7 @@ use MyCLabs\Enum\Enum;
  * @method static HOUSE()
  * @method static FLAT()
  * @method static TOWNHOUSE()
+ * @method static LOT()
  * @method static HOUSE_WITH_LOT()
  */
 class Category extends Enum
@@ -17,5 +18,6 @@ class Category extends Enum
     private const HOUSE = 'дом';
     private const FLAT = 'квартира';
     private const TOWNHOUSE = 'таунхаус';
+    private const LOT = 'участок';
     private const HOUSE_WITH_LOT = 'дом с участком';
 }
