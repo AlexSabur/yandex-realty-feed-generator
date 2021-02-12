@@ -17,7 +17,7 @@
   },
   "replace": {
     "windstep/yandex-realty-feed-generator": "*",
-    "SVV-team/yandex-realty-feed-generator": "*"
+    "svv-team/yandex-realty-feed-generator": "*"
   },
   "autoload": {
     "psr-4": {
