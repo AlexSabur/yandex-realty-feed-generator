@@ -24,6 +24,7 @@
       "Windstep\\YRLGenerator\\": "src/"
     }
   },
+  "minimum-stability": "dev",
   "autoload-dev": {
     "Tests\\": "tests/"
   },
