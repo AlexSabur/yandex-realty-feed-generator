@@ -508,6 +508,7 @@ class Offer extends AbstractOffer
             'bathroom-unit'      => $this->bathroomUnit,
             'balcony'            => $this->balcony,
             'floor'              => $this->floor,
+            'url'                => $this->url,
             'floors-total'       => $this->floorsTotal,
             'building-name'      => $this->buildingName,
             'yandex-building-id' => $this->yandexBuildingId,
