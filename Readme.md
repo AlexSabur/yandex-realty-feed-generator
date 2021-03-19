@@ -11,7 +11,7 @@ You can find original documentation on [yandex realty feed docs website](https:/
 
 To install, simply type in your terminal following command:
 
-`composer require windstep/yandex-realty-feed-generator`
+`composer require alexsabur/yandex-realty-feed-generator`
 
 And make sure, that php version >= 7.3 and ext-xmlwriter is installed and enabled in your system
 
