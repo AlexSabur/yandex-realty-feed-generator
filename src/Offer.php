@@ -208,9 +208,9 @@ class Offer extends AbstractOffer
     }
 
 
-    public function setNewFlat(): Offer
+    public function setNewFlat(bool $value = true): Offer
     {
-        $this->newFlat = true;
+        $this->newFlat = $value;
 
         return $this;
     }
@@ -236,23 +236,23 @@ class Offer extends AbstractOffer
         return $this;
     }
 
-    public function setApartments(): Offer
+    public function setApartments(bool $value = true): Offer
     {
-        $this->apartments = true;
+        $this->apartments = $value;
 
         return $this;
     }
 
-    public function setStudio(): Offer
+    public function setStudio(bool $value = true): Offer
     {
-        $this->studio = true;
+        $this->studio = $value;
 
         return $this;
     }
 
-    public function setOpenPlan(): Offer
+    public function setOpenPlan(bool $value = true): Offer
     {
-        $this->openPlan = true;
+        $this->openPlan = $value;
 
         return $this;
     }
