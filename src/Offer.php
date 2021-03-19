@@ -10,6 +10,7 @@ use Windstep\YRLGenerator\Enums\Category;
 use Windstep\YRLGenerator\Enums\Currency;
 use Windstep\YRLGenerator\Enums\DealStatus;
 use Windstep\YRLGenerator\Enums\FloorCovering;
+use Windstep\YRLGenerator\Enums\LotType;
 use Windstep\YRLGenerator\Enums\PropertyType;
 use Windstep\YRLGenerator\Enums\Renovation;
 use Windstep\YRLGenerator\Enums\RoomType;
@@ -73,6 +74,7 @@ class Offer extends AbstractOffer
     protected $guardedBuilding;
     protected $parking;
     protected $isElite;
+    protected $lotType;
 
     protected $pmg;
     protected $accessControlSystem;
@@ -429,6 +431,13 @@ class Offer extends AbstractOffer
         return $this;
     }
 
+    public function setLotType(LotType $lotType): Offer
+    {
+        $this->lotType = $lotType->getValue();
+
+        return $this;
+    }
+
     public function setBathroomUnit(BathroomUnit $bathroomUnit, ?int $count = null): Offer
     {
         if ($count) {
@@ -697,6 +706,7 @@ class Offer extends AbstractOffer
             'parking-place-price'           => $this->parkingPlacePrice,
             'parking-guest'                 => $this->parkingGuest,
             'parking-guest-places'          => $this->parkingGuestPlaces,
+            'lot-type'                      => $this->lotType,
         ];
     }
 }
