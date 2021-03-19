@@ -74,6 +74,28 @@ class Offer extends AbstractOffer
     protected $parking;
     protected $isElite;
 
+    protected $pmg;
+    protected $accessControlSystem;
+    protected $electricitySupply;
+    protected $waterSupply;
+    protected $gasSupply;
+    protected $sewerageSupply;
+    protected $heatingSupply;
+    protected $toilet;
+    protected $shower;
+    protected $pool;
+    protected $billiard;
+    protected $sauna;
+
+    protected $parkingPlaces;
+    protected $parkingPlacePrice;
+    protected $parkingGuest;
+    protected $parkingGuestPlaces;
+
+    protected $alarm;
+    protected $flatAlarm;
+    protected $security;
+
     public function setFloorsTotal(?int $floorsTotal): Offer
     {
         $this->floorsTotal = $floorsTotal;
@@ -165,35 +187,35 @@ class Offer extends AbstractOffer
         return $this;
     }
 
-    public function setLift(bool $lift): Offer
+    public function setLift(bool $lift = true): Offer
     {
         $this->lift = $lift;
 
         return $this;
     }
 
-    public function setRubbishChute(bool $rubbishChute): Offer
+    public function setRubbishChute(bool $rubbishChute = true): Offer
     {
         $this->rubbishChute = $rubbishChute;
 
         return $this;
     }
 
-    public function setGuardedBuilding(bool $guardedBuilding): Offer
+    public function setGuardedBuilding(bool $guardedBuilding = true): Offer
     {
         $this->guardedBuilding = $guardedBuilding;
 
         return $this;
     }
 
-    public function setParking(bool $parking): Offer
+    public function setParking(bool $parking = true): Offer
     {
         $this->parking = $parking;
 
         return $this;
     }
 
-    public function setIsElite(bool $isElite): Offer
+    public function setIsElite(bool $isElite = true): Offer
     {
         $this->isElite = $isElite;
 
@@ -253,6 +275,139 @@ class Offer extends AbstractOffer
     public function setOpenPlan(bool $value = true): Offer
     {
         $this->openPlan = $value;
+
+        return $this;
+    }
+
+    public function setPmg(bool $value = true): Offer
+    {
+        $this->pmg = $value;
+
+        return $this;
+    }
+
+    public function setAccessControlSystem(bool $value = true): Offer
+    {
+        $this->accessControlSystem = $value;
+
+        return $this;
+    }
+
+    public function setElectricitySupply(bool $value = true): Offer
+    {
+        $this->electricitySupply = $value;
+
+        return $this;
+    }
+
+    public function setWaterSupply(bool $value = true): Offer
+    {
+        $this->waterSupply = $value;
+
+        return $this;
+    }
+
+    public function setGasSupply(bool $value = true): Offer
+    {
+        $this->gasSupply = $value;
+
+        return $this;
+    }
+
+    public function setSewerageSupply(bool $value = true): Offer
+    {
+        $this->sewerageSupply = $value;
+
+        return $this;
+    }
+
+    public function setHeatingSupply(bool $value = true): Offer
+    {
+        $this->heatingSupply = $value;
+
+        return $this;
+    }
+
+    public function setToilet(bool $value = true): Offer
+    {
+        $this->toilet = $value;
+
+        return $this;
+    }
+
+    public function setShower(bool $value = true): Offer
+    {
+        $this->shower = $value;
+
+        return $this;
+    }
+
+    public function setPool(bool $value = true): Offer
+    {
+        $this->pool = $value;
+
+        return $this;
+    }
+
+    public function setBilliard(bool $value = true): Offer
+    {
+        $this->billiard = $value;
+
+        return $this;
+    }
+
+    public function setSauna(bool $value = true): Offer
+    {
+        $this->sauna = $value;
+
+        return $this;
+    }
+
+    public function setAlarm(bool $value = true): Offer
+    {
+        $this->alarm = $value;
+
+        return $this;
+    }
+
+    public function setFlatAlarm(bool $value = true): Offer
+    {
+        $this->flatAlarm = $value;
+
+        return $this;
+    }
+
+    public function setSecurity(bool $value = true): Offer
+    {
+        $this->security = $value;
+
+        return $this;
+    }
+
+    public function setParkingPlaces(?int $value): Offer
+    {
+        $this->parkingPlaces = $value;
+
+        return $this;
+    }
+
+    public function setParkingPlacePrice($value): Offer
+    {
+        $this->parkingPlacePrice = $value;
+
+        return $this;
+    }
+
+    public function setParkingGuest(bool $value = true): Offer
+    {
+        $this->parkingGuest = $value;
+
+        return $this;
+    }
+
+    public function setParkingGuestPlaces($value): Offer
+    {
+        $this->parkingGuestPlaces = $value;
 
         return $this;
     }
@@ -524,6 +679,26 @@ class Offer extends AbstractOffer
             'living-space'       => $this->livingSpace,
             'kitchen-space'      => $this->kitchenSpace,
             'room-space'         => $this->roomSpace,
+
+            'pmg'         => $this->pmg,
+            'access-control-system'         => $this->accessControlSystem,
+            'electricity-supply'         => $this->electricitySupply,
+            'water-supply'         => $this->waterSupply,
+            'gas-supply'         => $this->gasSupply,
+            'sewerage-supply'         => $this->sewerageSupply,
+            'heating-supply'         => $this->heatingSupply,
+            'toilet'         => $this->toilet,
+            'shower'         => $this->shower,
+            'pool'         => $this->pool,
+            'billiard'         => $this->billiard,
+            'sauna'         => $this->sauna,
+            'alarm'         => $this->alarm,
+            'flat-alarm'         => $this->flatAlarm,
+            'security'         => $this->security,
+            'parking-places'         => $this->parkingPlaces,
+            'parking-place-price'         => $this->parkingPlacePrice,
+            'parking-guest'         => $this->parkingGuest,
+            'parking-guest-places'         => $this->parkingGuestPlaces,
         ];
     }
 }
