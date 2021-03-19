@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class SalesAgentCategory
- * 
- * 
- * 
+ * Class SalesAgentCategory.
+ *
+ *
+ *
  * @method static static AGENCY()
  * @method static static DEVELOPER()
  * @method static static OWNER()

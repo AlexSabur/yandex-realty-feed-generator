@@ -229,7 +229,6 @@ class Offer extends AbstractOffer
         return $this;
     }
 
-
     public function setNewFlat(bool $value = true): Offer
     {
         $this->newFlat = $value;
@@ -416,7 +415,7 @@ class Offer extends AbstractOffer
     {
         $balcony = $balcony->getValue();
         if ($amount > 1) {
-            $balcony = $amount . ' ' . $balcony;
+            $balcony = $amount.' '.$balcony;
         }
         $this->balcony = $balcony;
 
@@ -452,7 +451,7 @@ class Offer extends AbstractOffer
     {
         $this->area = [
             'value' => $value,
-            'unit'  => $unit->getValue()
+            'unit'  => $unit->getValue(),
         ];
 
         return $this;
@@ -462,7 +461,7 @@ class Offer extends AbstractOffer
     {
         $this->livingSpace = [
             'value' => $value,
-            'unit'  => $unit->getValue()
+            'unit'  => $unit->getValue(),
         ];
 
         return $this;
@@ -472,7 +471,7 @@ class Offer extends AbstractOffer
     {
         $this->roomSpace[] = [
             'value' => $value,
-            'unit'  => $unit->getValue()
+            'unit'  => $unit->getValue(),
         ];
 
         return $this;
@@ -482,7 +481,7 @@ class Offer extends AbstractOffer
     {
         $this->kitchenSpace = [
             'value' => $value,
-            'unit'  => $unit->getValue()
+            'unit'  => $unit->getValue(),
         ];
 
         return $this;
@@ -557,7 +556,7 @@ class Offer extends AbstractOffer
             'url'          => $url,
             'category'     => $category->getValue(),
             'email'        => $email,
-            'photo'        => $photo
+            'photo'        => $photo,
         ];
 
         return $this;
@@ -585,7 +584,7 @@ class Offer extends AbstractOffer
             'direction'         => $direction,
             'distance'          => $distance,
             'latitude'          => $latitude,
-            'longitude'         => $longitude
+            'longitude'         => $longitude,
         ];
 
         return $this;
@@ -596,7 +595,7 @@ class Offer extends AbstractOffer
         $this->metro[] = [
             'name'              => $name,
             'time-on-foot'      => $timeOnFoot,
-            'time-on-transport' => $timeOnTransport
+            'time-on-transport' => $timeOnTransport,
         ];
 
         return $this;
@@ -680,25 +679,25 @@ class Offer extends AbstractOffer
             'kitchen-space'      => $this->kitchenSpace,
             'room-space'         => $this->roomSpace,
 
-            'pmg'         => $this->pmg,
+            'pmg'                           => $this->pmg,
             'access-control-system'         => $this->accessControlSystem,
-            'electricity-supply'         => $this->electricitySupply,
-            'water-supply'         => $this->waterSupply,
-            'gas-supply'         => $this->gasSupply,
-            'sewerage-supply'         => $this->sewerageSupply,
-            'heating-supply'         => $this->heatingSupply,
-            'toilet'         => $this->toilet,
-            'shower'         => $this->shower,
-            'pool'         => $this->pool,
-            'billiard'         => $this->billiard,
-            'sauna'         => $this->sauna,
-            'alarm'         => $this->alarm,
-            'flat-alarm'         => $this->flatAlarm,
-            'security'         => $this->security,
-            'parking-places'         => $this->parkingPlaces,
-            'parking-place-price'         => $this->parkingPlacePrice,
-            'parking-guest'         => $this->parkingGuest,
-            'parking-guest-places'         => $this->parkingGuestPlaces,
+            'electricity-supply'            => $this->electricitySupply,
+            'water-supply'                  => $this->waterSupply,
+            'gas-supply'                    => $this->gasSupply,
+            'sewerage-supply'               => $this->sewerageSupply,
+            'heating-supply'                => $this->heatingSupply,
+            'toilet'                        => $this->toilet,
+            'shower'                        => $this->shower,
+            'pool'                          => $this->pool,
+            'billiard'                      => $this->billiard,
+            'sauna'                         => $this->sauna,
+            'alarm'                         => $this->alarm,
+            'flat-alarm'                    => $this->flatAlarm,
+            'security'                      => $this->security,
+            'parking-places'                => $this->parkingPlaces,
+            'parking-place-price'           => $this->parkingPlacePrice,
+            'parking-guest'                 => $this->parkingGuest,
+            'parking-guest-places'          => $this->parkingGuestPlaces,
         ];
     }
 }

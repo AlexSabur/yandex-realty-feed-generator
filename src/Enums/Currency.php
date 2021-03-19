@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class Currency
- * 
- * 
- * 
+ * Class Currency.
+ *
+ *
+ *
  * @method static static RUB()
  * @method static static EUR()
  * @method static static USD()

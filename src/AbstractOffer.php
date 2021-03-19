@@ -16,7 +16,7 @@ abstract class AbstractOffer
     protected $importId;
     protected $sameNameProperties = [
         'metro',
-        'room-space'
+        'room-space',
     ];
 
     public function __construct($id, ?array $data = null)
@@ -44,6 +44,7 @@ abstract class AbstractOffer
         }
 
         $this->engine->fullEndElement();
+
         return $this->engine->flush(true);
     }
 
@@ -61,6 +62,7 @@ abstract class AbstractOffer
     {
         $snakeCase = ucwords(str_replace(['-', '_'], ' ', $propertyName));
         $studlyCase = lcfirst(str_replace(' ', '', $snakeCase));
+
         return "create{$studlyCase}Element";
     }
 
@@ -122,7 +124,9 @@ abstract class AbstractOffer
 
     public function fill(?array $data = [])
     {
-        if (!$data) return;
+        if (!$data) {
+            return;
+        }
         $this->properties = $data;
     }
 

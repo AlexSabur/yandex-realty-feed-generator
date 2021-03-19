@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class Unit
- * 
- * 
- * 
+ * Class Unit.
+ *
+ *
+ *
  * @method static static METER_SQUARE
  * @method static static AR
  * @method static static HECTARE

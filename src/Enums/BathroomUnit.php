@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class BathroomUnit
- * 
+ * Class BathroomUnit.
+ *
  * Тип вынной комнаты
- * 
+ *
  * @method static static ADJASTED()
  * @method static static SEPARATED()
  */

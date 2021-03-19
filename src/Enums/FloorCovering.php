@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class FloorCovering
- * 
- * 
- * 
+ * Class FloorCovering.
+ *
+ *
+ *
  * @method static static FITTED_CARPET()
  * @method static static LAMINATE()
  * @method static static LINOLEUM()

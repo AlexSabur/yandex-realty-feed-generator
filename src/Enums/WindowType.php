@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class WindowType
- * 
- * 
- * 
+ * Class WindowType.
+ *
+ *
+ *
  * @method static static YARD()
  * @method static static STREET()
  */

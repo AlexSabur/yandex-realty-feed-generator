@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class Renovation
- * 
- * 
- * 
+ * Class Renovation.
+ *
+ *
+ *
  * @method static static FINAL_FINISHING()
  * @method static static ABSOLUTELY_READY()
  * @method static static ROUGH_FINISHING()

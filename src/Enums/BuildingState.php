@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class BuildingState
- * 
- * 
- * 
+ * Class BuildingState.
+ *
+ *
+ *
  * @method static static BUILT()
  * @method static static HAND_OVER()
  * @method static static UNFINISHED()

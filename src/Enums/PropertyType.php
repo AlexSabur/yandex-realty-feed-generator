@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class PropertyType
- * 
- * 
- * 
+ * Class PropertyType.
+ *
+ *
+ *
  * @method static static LIVING()
  */
 class PropertyType extends Enum
