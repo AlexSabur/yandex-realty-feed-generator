@@ -6,10 +6,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class SalesAgentCategory
- * @package Windstep\YRLGenerator\Enums
- * @method static AGENCY()
- * @method static DEVELOPER()
- * @method static OWNER()
+ * 
+ * 
+ * 
+ * @method static static AGENCY()
+ * @method static static DEVELOPER()
+ * @method static static OWNER()
  */
 class SalesAgentCategory extends Enum
 {

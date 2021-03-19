@@ -7,9 +7,9 @@ use MyCLabs\Enum\Enum;
 /**
  * Class DealStatus
  * @package Windstep\YRLGenerator\Enums
- * @method static PRIMARY()
- * @method static DIRECT()
- * @method static REASSIGNMENT()
+ * @method static static PRIMARY()
+ * @method static static DIRECT()
+ * @method static static REASSIGNMENT()
  */
 class DealStatus extends Enum
 {

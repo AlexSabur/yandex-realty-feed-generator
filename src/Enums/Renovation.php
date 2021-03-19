@@ -6,10 +6,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class Renovation
- * @package Windstep\YRLGenerator\Enums
- * @method static FINAL_FINISHING()
- * @method static ABSOLUTELY_READY()
- * @method static ROUGH_FINISHING()
+ * 
+ * 
+ * 
+ * @method static static FINAL_FINISHING()
+ * @method static static ABSOLUTELY_READY()
+ * @method static static ROUGH_FINISHING()
  */
 class Renovation extends Enum
 {

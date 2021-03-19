@@ -6,13 +6,15 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class BuildingType
- * @package Windstep\YRLGenerator\Enums
- * @method static BRICK()
- * @method static MONOLITH()
- * @method static PANEL()
- * @method static MONOLITH_BRICK()
- * @method static WOOD()
- * @method static BLOCK()
+ * 
+ * 
+ * 
+ * @method static static BRICK()
+ * @method static static MONOLITH()
+ * @method static static PANEL()
+ * @method static static MONOLITH_BRICK()
+ * @method static static WOOD()
+ * @method static static BLOCK()
  */
 class BuildingType extends Enum
 {

@@ -6,10 +6,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class Currency
- * @package Windstep\YRLGenerator\Enums
- * @method static RUB()
- * @method static EUR()
- * @method static USD()
+ * 
+ * 
+ * 
+ * @method static static RUB()
+ * @method static static EUR()
+ * @method static static USD()
  */
 class Currency extends Enum
 {

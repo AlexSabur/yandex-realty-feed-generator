@@ -6,9 +6,11 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class WindowType
- * @package Windstep\YRLGenerator\Enums
- * @method static YARD()
- * @method static STREET()
+ * 
+ * 
+ * 
+ * @method static static YARD()
+ * @method static static STREET()
  */
 class WindowType extends Enum
 {

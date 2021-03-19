@@ -6,12 +6,14 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class Category
- * @package Windstep\YRLGenerator\Enums
- * @method static HOUSE()
- * @method static FLAT()
- * @method static TOWNHOUSE()
- * @method static LOT()
- * @method static HOUSE_WITH_LOT()
+ * 
+ * 
+ * 
+ * @method static static HOUSE()
+ * @method static static FLAT()
+ * @method static static TOWNHOUSE()
+ * @method static static LOT()
+ * @method static static HOUSE_WITH_LOT()
  */
 class Category extends Enum
 {

@@ -6,9 +6,11 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class BathroomUnit
- * @package Windstep\YRLGenerator\Enums
- * @method static ADJASTED()
- * @method static SEPARATED()
+ * 
+ * Тип вынной комнаты
+ * 
+ * @method static static ADJASTED()
+ * @method static static SEPARATED()
  */
 class BathroomUnit extends Enum
 {

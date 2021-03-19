@@ -6,8 +6,10 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class PropertyType
- * @package Windstep\YRLGenerator\Enums
- * @method static LIVING() self
+ * 
+ * 
+ * 
+ * @method static static LIVING()
  */
 class PropertyType extends Enum
 {

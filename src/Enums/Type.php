@@ -6,9 +6,11 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class Type
- * @package Windstep\YRLGenerator\Enums
- * @method static SELL()
- * @method static RENT()
+ * 
+ * 
+ * 
+ * @method static static SELL()
+ * @method static static RENT()
  */
 class Type extends Enum
 {

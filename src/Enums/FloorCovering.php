@@ -6,11 +6,13 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class FloorCovering
- * @package Windstep\YRLGenerator\Enums
- * @method static FITTED_CARPET()
- * @method static LAMINATE()
- * @method static LINOLEUM()
- * @method static PARQUET()
+ * 
+ * 
+ * 
+ * @method static static FITTED_CARPET()
+ * @method static static LAMINATE()
+ * @method static static LINOLEUM()
+ * @method static static PARQUET()
  */
 class FloorCovering extends Enum
 {

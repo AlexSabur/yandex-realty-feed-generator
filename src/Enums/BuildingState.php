@@ -6,10 +6,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class BuildingState
- * @package Windstep\YRLGenerator\Enums
- * @method static BUILT()
- * @method static HAND_OVER()
- * @method static UNFINISHED()
+ * 
+ * 
+ * 
+ * @method static static BUILT()
+ * @method static static HAND_OVER()
+ * @method static static UNFINISHED()
  */
 class BuildingState extends Enum
 {

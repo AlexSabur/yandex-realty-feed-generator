@@ -6,9 +6,11 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class RoomType
- * @package Windstep\YRLGenerator\Enums
- * @method static ADJACENT()
- * @method static SEPARATED()
+ * 
+ * 
+ * 
+ * @method static static ADJACENT()
+ * @method static static SEPARATED()
  */
 class RoomType extends Enum
 {

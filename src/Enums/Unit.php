@@ -6,10 +6,12 @@ use MyCLabs\Enum\Enum;
 
 /**
  * Class Unit
- * @package Windstep\YRLGenerator\Enums
- * @method static METER_SQUARE
- * @method static AR
- * @method static HECTARE
+ * 
+ * 
+ * 
+ * @method static static METER_SQUARE
+ * @method static static AR
+ * @method static static HECTARE
  */
 class Unit extends Enum
 {
