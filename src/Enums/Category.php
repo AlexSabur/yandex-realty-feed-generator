@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class Category
- * 
- * 
- * 
+ * Class Category.
+ *
+ *
+ *
  * @method static static HOUSE()
  * @method static static FLAT()
  * @method static static TOWNHOUSE()

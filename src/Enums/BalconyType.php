@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class BalconyType
- * 
+ * Class BalconyType.
+ *
  * Тип балкона
- * 
+ *
  * @method static static BALCONY()
  * @method static static LOGGIA()
  * @method static static BALCONIES()

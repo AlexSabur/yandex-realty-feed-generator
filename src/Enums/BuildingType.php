@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class BuildingType
- * 
- * 
- * 
+ * Class BuildingType.
+ *
+ *
+ *
  * @method static static BRICK()
  * @method static static MONOLITH()
  * @method static static PANEL()

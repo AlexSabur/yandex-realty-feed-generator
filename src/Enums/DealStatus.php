@@ -5,8 +5,8 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class DealStatus
- * @package Windstep\YRLGenerator\Enums
+ * Class DealStatus.
+ *
  * @method static static PRIMARY()
  * @method static static DIRECT()
  * @method static static REASSIGNMENT()

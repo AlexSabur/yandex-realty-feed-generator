@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class RoomType
- * 
- * 
- * 
+ * Class RoomType.
+ *
+ *
+ *
  * @method static static ADJACENT()
  * @method static static SEPARATED()
  */

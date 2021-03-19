@@ -15,6 +15,7 @@ trait FiltersArray
                 $result[$key] = $value;
             }
         }
+
         return $result;
     }
 }

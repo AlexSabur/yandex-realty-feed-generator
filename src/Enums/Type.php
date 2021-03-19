@@ -5,10 +5,10 @@ namespace Windstep\YRLGenerator\Enums;
 use MyCLabs\Enum\Enum;
 
 /**
- * Class Type
- * 
- * 
- * 
+ * Class Type.
+ *
+ *
+ *
  * @method static static SELL()
  * @method static static RENT()
  */
